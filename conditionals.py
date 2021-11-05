@@ -1,6 +1,3 @@
-
-
-
 """
 #while loop
 invited = ['Agent Q', 'Agent M', 'Agent J', 'Agent S']
