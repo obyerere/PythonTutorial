@@ -1,9 +1,24 @@
+
+
+
+"""
+#while loop
+invited = ['Agent Q', 'Agent M', 'Agent J', 'Agent S']
+attended = []
+
+while invited:
+    current_agent = invited.pop()
+    print(current_agent + ' attended the meeting.')
+    attended.append(current_agent)
+
+print('Attended list: ' + str(attended))
+
 #LAB1
 fav_linux_distros = ['Mint', 'Debian', 'Ubuntu', 'Manjaro', 'Fedora', 'Arch']
 
 for distro in fav_linux_distros:
     print(distro)
-"""
+
 if "string 1" == "string 1":
     print("These strings are equal.")
 
